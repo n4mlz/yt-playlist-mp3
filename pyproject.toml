@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yt-playlist-mp3"
+version = "0.1.0"
+description = ""
+authors = ["n4mlz <n4mlz.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+yt-dlp = "^2024.8.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
